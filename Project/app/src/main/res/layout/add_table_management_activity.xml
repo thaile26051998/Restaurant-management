@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/nav_add_table_management"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#df8e15"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:title="Quản lý nhân vien"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="3dp"></android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edt_name_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:drawableLeft="@drawable/ic_name"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:hint="Tên bàn ăn"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorHint"
+        app:layout_constraintBottom_toTopOf="@+id/edt_status_table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nav_add_table_management" />
+
+    <EditText
+        android:id="@+id/edt_status_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_name"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="Trống"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_name_table" />
+
+</android.support.constraint.ConstraintLayout>

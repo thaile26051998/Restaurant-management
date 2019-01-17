@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuTableSelectFood"
+        android:title="Chọn món"></item>
+    <item
+        android:id="@+id/menuTablePay"
+        android:title="Thanh toán"></item>
+    <item
+        android:id="@+id/menuTableCancel"
+        android:title="Huỷ"></item>
+</menu>

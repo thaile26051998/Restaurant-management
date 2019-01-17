@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "785930080318",
+    "firebase_url": "https://restaurant-management-fiveti.firebaseio.com",
+    "project_id": "restaurant-management-fiveti",
+    "storage_bucket": "restaurant-management-fiveti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785930080318:android:38ac9278ad3a75e9",
+        "android_client_info": {
+          "package_name": "com.example.admin.restaurantmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785930080318-16j430c19nuaj6sk5vhgs25bie7tspl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.restaurantmanagement",
+            "certificate_hash": "be130f4b0045b4415822b7fbf59aa1924c911419"
+          }
+        },
+        {
+          "client_id": "785930080318-rd00dgft24hc3dehsptanao3miphab63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvHAFABzC2RDpMUXuvnzDl7622b4okD2w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785930080318-rd00dgft24hc3dehsptanao3miphab63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

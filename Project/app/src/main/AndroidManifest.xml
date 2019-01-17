@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.restaurantmanagement">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_restaurant"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_restaurant"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".FoodManagement.AddFoodManagementActivity"></activity>
+        <activity android:name=".FoodManagement.AddDrinkManagementActivity"></activity>
+        <activity android:name=".FoodManagement.EditMenuManagementActivity"></activity>
+        <activity android:name=".FoodManagement.MenuManagementActivity"></activity>
+        <activity android:name=".EmployManagement.EmployManagementActivity"></activity>
+        <activity android:name=".EmployManagement.AddEmployManagementActivity"></activity>
+        <activity android:name=".EmployManagement.EditEmployManagementActivity"></activity>
+
+        <activity android:name=".TableManagement.TableManagementActivity"></activity>
+        <activity android:name=".TableManagement.AddTableManagementActivity"></activity>
+        <activity android:name=".TableManagement.EditTableManagementActivity"></activity>
+        <activity android:name=".Management.ManagementActivity"></activity>
+
+        <activity android:name=".Login.LoginActivity"></activity>
+
+
+        <activity android:name=".OrderActivity.OrderActivity"></activity>
+        <activity android:name=".TableDiagram.TableDiagramActivity"></activity>
+        <activity android:name=".PayFood.PayFoodActivity"></activity>
+        <activity android:name=".RestaurantMenu.RestaurantMenuActivity"></activity>
+
+
+        <activity android:name=".Login.SplashActivity">>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

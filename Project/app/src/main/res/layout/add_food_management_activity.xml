@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/edtFoodName"
+        android:layout_width="364dp"
+        android:height="200dp"
+        android:drawableLeft="@drawable/ic_food"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:background="@drawable/bg_add_food"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Tên món ăn"/>
+
+    <EditText
+        android:id="@+id/edtFoodDetail"
+        android:layout_width="364dp"
+        android:height="200dp"
+        android:drawableLeft="@drawable/ic_detail"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:background="@drawable/bg_add_food"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Mô tả"/>
+
+    <EditText
+        android:id="@+id/edtFoodPrice"
+        android:layout_width="364dp"
+        android:height="200dp"
+        android:drawableLeft="@drawable/ic_price"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:background="@drawable/bg_add_food"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Giá" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/nav_add_employ_management"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        app:title="Thêm món ăn"
+        android:background="#df8e15"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    </android.support.v7.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/imgAddFoodOrder"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_below="@+id/edtFoodDetail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="75dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/btnChooseImageAddFood"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_table_diagram"
+        android:layout_below="@+id/imgAddFoodOrder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-73dp"
+        android:text="Chọn ảnh"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>
